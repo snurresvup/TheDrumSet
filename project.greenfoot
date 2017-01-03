@@ -1,0 +1,15 @@
+#Greenfoot properties
+#Tue Jan 03 11:26:10 CET 2017
+class.SnareDrum.image=snare-drum.png
+class.DrumWorld.superclass=greenfoot.World
+class.SnareDrum.superclass=greenfoot.Actor
+mainWindow.width=786
+package.numDependencies=0
+version=2.7.1
+project.charset=UTF-8
+world.lastInstantiated=DrumWorld
+mainWindow.y=125
+package.numTargets=0
+mainWindow.x=604
+mainWindow.height=697
+class.DrumWorld.image=drum-mat.jpg

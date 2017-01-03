@@ -6,21 +6,9 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class SnareDrum extends Actor
-{
-    private TcpClient client;
-
+public class SnareDrum extends Instrument {
     public SnareDrum() {
-        client = TcpClient.getInstance();
-    }
-
-    public void act() {
-        onClick();
-    }   
-
-    private void onClick() {
-        if (Greenfoot.mousePressed(this)) {
-            client.send("snare");
-        }
-    }
+        super("a", "snare");
+        getImage().scale(120, 120);
+    } 
 }

@@ -1,0 +1,3 @@
+ens lydniveauer
+ramp down / ramp up - avoid clipping/clicking
+aflere effekter

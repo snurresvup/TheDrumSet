@@ -25,6 +25,9 @@ public class Button extends Actor
             swapImage();
             String onOrOff = (on) ? "on" : "off";
             client.send(effectType + "-" + onOrOff);
+            GreenfootSound click = new GreenfootSound("switch.wav");
+            click.setVolume(75);
+            click.play();
         }
     }   
 

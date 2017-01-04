@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class TomTomLarge extends Instrument
 {
     public TomTomLarge() {
-        super("2", "tomtom-large");
+        super("e", "tomtom-large");
         getImage().scale(140, 140);
     }
 }

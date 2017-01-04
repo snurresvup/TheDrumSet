@@ -1,14 +1,13 @@
 #BlueJ class context
-comment0.target=TcpClient
+comment0.params=
+comment0.target=TcpClient()
 comment1.params=
-comment1.target=TcpClient()
-comment2.params=
-comment2.target=TcpClient\ getInstance()
-comment3.params=host\ port
-comment3.target=void\ connect(java.lang.String,\ int)
-comment4.params=
-comment4.target=void\ disconnect()
-comment5.params=command
-comment5.target=void\ send(java.lang.String)
-comment5.text=\r\n\ Send\ command\ to\ a\ Pure\ Data\ audio\ engine.\ \r\n
-numComments=6
+comment1.target=TcpClient\ getInstance()
+comment2.params=host\ port
+comment2.target=void\ connect(java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ disconnect()
+comment4.params=command
+comment4.target=void\ send(java.lang.String)
+comment4.text=\r\n\ Send\ command\ to\ a\ Pure\ Data\ audio\ engine.\ \r\n
+numComments=5

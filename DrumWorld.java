@@ -19,8 +19,8 @@ public class DrumWorld extends World
         super(750, 572, 1); 
         addObject(new BassDrum(), 461, 224);
         addObject(new SnareDrum(), 356, 334);
-        addObject(new Button("reverb"), 70, 90);
-        addObject(new ReverbEffect(), 200, 90);
+        addObject(new Button("effects"), 70, 90);
+        addObject(new Effect(), 200, 90);
         addObject(new TomTomLarge(), 550, 355);
         addObject(new ChinaCymbal(), 677, 350);
         addObject(new TomTomSmall(), 360, 230);

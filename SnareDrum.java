@@ -8,7 +8,7 @@ import greenfoot.*;
  */
 public class SnareDrum extends Instrument {
     public SnareDrum() {
-        super("a", "snare");
+        super("w", "snare");
         getImage().scale(120, 120);
     } 
 }

@@ -7,7 +7,7 @@ import java.util.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ReverbEffect extends Actor
+public class Effect extends Actor
 {
     private Effects currentlySelectedEffect = Effects.HALL;
     private TcpClient client;
@@ -28,7 +28,7 @@ public class ReverbEffect extends Actor
         }        
     }
 
-    public ReverbEffect() {
+    public Effect() {
         updateImage();
         getImage().scale(150, 150);
         client = TcpClient.getInstance();
@@ -38,7 +38,7 @@ public class ReverbEffect extends Actor
         if (Greenfoot.mousePressed(this)) {
             currentlySelectedEffect = Effects.values()[(currentlySelectedEffect.ordinal() + 1) % Effects.values().length];
             updateImage();
-            client.send("reverb-" + currentlySelectedEffect.getName());
+            client.send("effects-" + currentlySelectedEffect.getName());
         }
     }       
 

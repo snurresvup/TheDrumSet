@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class HiHat extends Instrument
 {
     public HiHat() {
-        super("e", "hihat");
+        super("r", "hihat");
         getImage().scale(120, 120);
     }
 }

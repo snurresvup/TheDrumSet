@@ -1,3 +1,7 @@
-ens lydniveauer
-ramp down / ramp up - avoid clipping/clicking
 aflere effekter
+fix reverb
+forskellige patches
+lydeffekt af knapper
+
+
+kig på vigtige patches

@@ -8,6 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class BassDrum extends Instrument {    
     public BassDrum() {
-        super("d", "bass");
+        super("q", "bass");
     }     
 }

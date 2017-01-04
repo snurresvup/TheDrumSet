@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class CrashCymbal extends Instrument
 {
     public CrashCymbal() {
-        super("c", "crash-cymbal");
+        super("3", "crash-cymbal");
         getImage().scale(130, 130);
     }
 }

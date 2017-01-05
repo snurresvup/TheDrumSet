@@ -1,4 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=TomTomSmall()
-numComments=1
+comment0.target=TomTomSmall
+comment0.text=\n\ Write\ a\ description\ of\ class\ TomSmall\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=TomTomSmall()
+numComments=2

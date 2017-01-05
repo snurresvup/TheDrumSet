@@ -1,6 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=TextField()
+comment0.target=TextField
+comment0.text=\n\ Write\ a\ description\ of\ class\ TextField\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
-comment1.target=void\ act()
-numComments=2
+comment1.target=TextField()
+comment2.params=
+comment2.target=void\ act()
+numComments=3
